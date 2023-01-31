@@ -1,0 +1,10 @@
+1)
+en exécutant ces instructions, ils renvoient "Test réussi" (2 fois). Donc ce sont des instances des classes IntervalleOuvert et IntervalleFerme.
+2)
+la 2èmme ligne génère une erreur à la compilation
+parce que, le type de paramètre dans la méthode testIntervalleFerme est IntervalleFerme qui n'est pas l'IntervalleOuvert
+3)
+Ce n’est pas un intervalle ouvert. Elles ne génèrent pas d'erreur à la compilation parce que la classe IntervalleFerme qui a hérité la class IntervalleOuvert.
+4)
+la règle LSP est violé. On ne peut pas substituer une instance d'un sous classe(IntervalleFermer) en conservant un comportement compatible avec la superclasse(IntervalleOuvert).
+ (la méthode contient dans la sous classe est différente de celle dans la super classe).
